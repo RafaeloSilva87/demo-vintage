@@ -53,7 +53,7 @@ document.getElementById('hero-texto').textContent = DADOS.heroTexto;
 
         div.innerHTML = `
             <div class="foto-moldura">${conteudoFoto}</div>
-            <p>${f.legenda}</p>
+            ${f.arquivo ? `<p>${f.legenda}</p>` : ''}
         `;
         container.appendChild(div);
     });
