@@ -10,7 +10,7 @@ const DADOS = {
   capaDica: "toque para entrar",
 
   // ---- Hero (primeira página) ----
-  heroEyebrow: "Para peru, com amor",
+  heroEyebrow: "Para (Nome), com amor",
   heroTitulo: "Te amo", // a última palavra do título fica destacada em rosa
   heroSubtitulo: "Uma declaração especial para você",
   heroTexto:
@@ -108,7 +108,7 @@ const DADOS = {
 
   // ---- Raspadinhas (a surpresa final) ----
   surpresas: [
-    "hey brother",
+    "Escreva aqui uma frase surpresa 1",
     "Escreva aqui uma frase surpresa 2",
     "Escreva aqui uma frase surpresa 3",
     "Escreva aqui uma frase surpresa 4",
