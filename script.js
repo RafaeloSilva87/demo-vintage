@@ -96,16 +96,16 @@ function criarRaspadinhas() {
         const dica = card.querySelector('.raspadinha-dica');
         const ctx = canvas.getContext('2d');
 
-        const cores = ['#ffd3e2', '#fff1c2', '#cdeede'];
+        const cores = ['#e8cfa8', '#f0dfc0', '#d8c9a8'];
         ctx.fillStyle = cores[i % cores.length];
         ctx.beginPath();
         ctx.arc(85, 85, 85, 0, Math.PI * 2);
         ctx.fill();
-        ctx.fillStyle = '#4a2e44';
-        ctx.font = '700 16px Quicksand';
+        ctx.fillStyle = '#8b1a2f';
+        ctx.font = '400 18px Lora';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
-        ctx.fillText('♥', 85, 85);
+        ctx.fillText('❧', 85, 85);
 
         let raspando = false;
         let revelado = false;
