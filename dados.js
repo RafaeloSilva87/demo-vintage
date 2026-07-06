@@ -69,7 +69,7 @@ const DADOS = {
       tamanho: "larga",
     },
     { arquivo: "", legenda: "Foto sua e do seu mozão aqui", tamanho: "normal" },
-    { arquivo: "", legenda: "Foto sua e do seu mozão aqui", tamanho: "normal" },
+    { arquivo: "", legenda: "Foto sua e do seu mozão aqui", tamanho: "larga" },
   ],
 
   // ---- Varal de motivos ----
