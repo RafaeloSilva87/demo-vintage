@@ -102,7 +102,7 @@ function renderSite(DADOS) {
     })();
 
     // ---- Raspadinhas ----
-    criarRaspadinhas(DADOS.surpresas || []);
+    criarRaspadinhas(DADOS.surpresas || [], DADOS._semEmbaralhar);
 
     // ---- Música de fundo ----
     const bgMusic = document.getElementById('bg-music');
@@ -135,10 +135,10 @@ function raspConfig() {
     };
 }
 
-function criarRaspadinhas(surpresas) {
+function criarRaspadinhas(surpresas, semEmbaralhar) {
     const container = document.getElementById('raspadinhas');
     container.innerHTML = '';
-    const embaralhadas = [...surpresas].sort(() => Math.random() - 0.5);
+    const embaralhadas = semEmbaralhar ? [...surpresas] : [...surpresas].sort(() => Math.random() - 0.5);
     const rasp = raspConfig();
 
     embaralhadas.forEach((texto, i) => {

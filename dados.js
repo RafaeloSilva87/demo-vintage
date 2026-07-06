@@ -119,4 +119,9 @@ const DADOS = {
   // ---- Música de fundo ----
   // Coloque o arquivo .mp3 em /musica e escreva o nome aqui. Deixe "" para não ter música.
   musica: "",
+
+  // Apenas para este demo de vitrine: mantém as raspadinhas em ordem fixa (1 a 6),
+  // em vez de embaralhadas. Sites de clientes reais (gerados pelo painel) não têm
+  // esse campo, então continuam embaralhando normalmente.
+  _semEmbaralhar: true,
 };
