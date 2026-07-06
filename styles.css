@@ -13,6 +13,13 @@
     --dourado:   #b8860b;
     --font-display: 'Playfair Display', Georgia, serif;
     --font-body:    'Lora', Georgia, serif;
+    /* raspadinhas (lidas pelo script.js) */
+    --rasp-c1: #e8cfa8;
+    --rasp-c2: #f0dfc0;
+    --rasp-c3: #d8c9a8;
+    --rasp-fill: #8b1a2f;
+    --rasp-font: 400 18px Lora;
+    --rasp-simbolo: '❧';
 }
 
 body {
