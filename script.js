@@ -35,6 +35,10 @@ function renderSite(DADOS) {
     document.getElementById('hero-subtitulo').textContent = DADOS.heroSubtitulo || '';
     document.getElementById('hero-texto').textContent = DADOS.heroTexto || '';
 
+    // O título da aba acompanha o conteúdo — cada casal tem o seu
+    const tituloAba = [DADOS.heroTitulo, DADOS.heroEyebrow].filter(Boolean).join(' — ');
+    if (tituloAba) document.title = tituloAba;
+
     // Título do hero: a última palavra fica destacada em rosa
     (function montarTituloHero() {
         const palavras = (DADOS.heroTitulo || '').trim().split(' ').filter(Boolean);
